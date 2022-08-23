@@ -44,7 +44,7 @@ public class Venta {
 		this.id = id;
 		this.producto = producto;
 		this.cajero = cajero;
-		this.maquinaRegistradora = maquinaRegistradora;
+		this.mregistradoras = maquinaRegistradora;
 	}
 
 	/**
@@ -79,14 +79,14 @@ public class Venta {
 	 * @return the maquinaRegistradora
 	 */
 	public MaquinaRegistradora getMaquinaRegistradora() {
-		return maquinaRegistradora;
+		return mregistradoras;
 	}
 
 	/**
 	 * @param maquinaRegistradora the maquinaRegistradora to set
 	 */
 	public void setMaquinaRegistradora(MaquinaRegistradora maquinaRegistradora) {
-		this.maquinaRegistradora = maquinaRegistradora;
+		this.mregistradoras = maquinaRegistradora;
 	}
 
 	/**
@@ -99,7 +99,7 @@ public class Venta {
 	@Override
 	public String toString() {
 		return "Venta [id=" + id + ", producto=" + producto + ", cajero=" + cajero + ", maquinaRegistradora="
-				+ maquinaRegistradora + "]";
+				+ mregistradoras + "]";
 	}
 	
 }
